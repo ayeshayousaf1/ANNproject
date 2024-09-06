@@ -6,7 +6,7 @@ import cv2
 
 # Load the saved model
 model = load_model('ann_model.h5')
-add .
+
 # Function to preprocess the image
 def preprocess_image(image):
     image = image.convert('L')  # Convert to grayscale
